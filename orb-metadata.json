@@ -1,0 +1,13 @@
+{
+  "id": "core-belief",
+  "title": "Core Belief ORB",
+  "edition": "core-belief-2026-09-v1",
+  "description": "An interactive map of 25 illustrative belief patterns across social convention, conditional belonging, persistent stress, traumatic threat, and coercive influence.",
+  "pointCount": 41,
+  "beliefCount": 25,
+  "authored": "2026-09-09",
+  "narrationReady": false,
+  "availableJourneys": [],
+  "repository": "https://github.com/visualizationcreation/core-belief",
+  "archive": "https://visualizationcreation.github.io/orb-archive/"
+}

@@ -1,0 +1,1515 @@
+{
+  "id": "core-belief",
+  "title": "Core Belief ORB",
+  "edition": "core-belief-2026-09-v1",
+  "authored": "2026-09-09",
+  "root": "home",
+  "density": "standard",
+  "pointCount": 41,
+  "beliefCount": 25,
+  "groups": [
+    {
+      "id": "convention",
+      "title": "Social convention",
+      "subtitle": "What is treated as normal"
+    },
+    {
+      "id": "belonging",
+      "title": "Conditional belonging",
+      "subtitle": "What seems necessary to be kept"
+    },
+    {
+      "id": "stress",
+      "title": "Persistent stress",
+      "subtitle": "What seems necessary to get through"
+    },
+    {
+      "id": "trauma",
+      "title": "Traumatic threat",
+      "subtitle": "What danger seems to say about life"
+    },
+    {
+      "id": "coercion",
+      "title": "Coercive influence",
+      "subtitle": "What power makes costly to question"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "home",
+      "title": "When an assumption becomes an identity",
+      "kind": "Orientation",
+      "group": "all",
+      "level": 0,
+      "ab": 0,
+      "reading": [
+        "A short sentence can quietly organize a life: “I am a burden.” “People are unsafe.” “My value is what I produce.” A core belief is a broad conclusion about the self, other people, or the world. A rule tells you how to live as if that conclusion were true.",
+        "This orb follows the passage from experience to interpretation, from interpretation to a protective rule, and from a repeated rule to a seemingly fixed identity. The passage is a useful model, not an inevitable sequence. Beliefs can also precede an event, change later in life, or remain flexible.",
+        "Enter through one of five contexts. They overlap: a convention can be enforced through affection, a workplace can generate persistent stress, and a controlling relationship can be traumatic. Their order does not rank suffering. The same sentence can have several histories—or no traumatic history at all."
+      ],
+      "sources": [
+        "development",
+        "ptsd"
+      ],
+      "prompt": "Which is the useful distinction here: what happened, what someone concluded, or the rule they now feel obliged to follow?",
+      "up": null,
+      "down": "convention",
+      "backward": null,
+      "forward": "experience",
+      "left": null,
+      "right": null,
+      "edge": [
+        "up",
+        "left",
+        "right",
+        "backward"
+      ],
+      "edgeReasons": {
+        "up": "Root anchor: no broader point authored.",
+        "left": "No further step authored in this direction.",
+        "right": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 1,
+      "displayY": 0.94,
+      "lon": 0.0
+    },
+    {
+      "id": "convention",
+      "title": "Social convention",
+      "kind": "Context",
+      "group": "convention",
+      "level": 1,
+      "ab": 0,
+      "reading": [
+        "Some assumptions arrive through ordinary praise, jokes, traditions, images, and expectations. A convention becomes questionable when a local preference is treated as a universal test of human worth.",
+        "Notice the difference between “People here often do this,” “People here expect this,” and “I am wrong if I do not do this.” These are different claims. A freely chosen tradition can support belonging; the same practice can become restrictive when dissent carries penalties.",
+        "The examples below are an interpretive collection, not findings about a particular culture. Ask whose values the convention serves, whether it is negotiable, and whether it fits the person expected to follow it."
+      ],
+      "sources": [
+        "norms"
+      ],
+      "subtitle": "What is treated as normal",
+      "left": null,
+      "right": "belonging",
+      "up": "home",
+      "down": "rest",
+      "backward": null,
+      "forward": "experience",
+      "edge": [
+        "left",
+        "backward"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 2,
+      "displayY": 0.8929999999999999,
+      "lon": 137.507764
+    },
+    {
+      "id": "belonging",
+      "title": "Conditional belonging",
+      "kind": "Context",
+      "group": "belonging",
+      "level": 1,
+      "ab": 0,
+      "reading": [
+        "A relationship may appear to offer acceptance only when someone is useful, agreeable, successful, or easy to care for. In that setting, a person might begin organizing life around keeping the connection.",
+        "This branch explores possible meanings of conditional acceptance. It does not infer neglect or abuse from a personality style, and it does not label every family expectation harmful. The relevant questions concern consistency, reciprocity, room for difference, and the consequences of having needs."
+      ],
+      "sources": [
+        "development",
+        "assert"
+      ],
+      "subtitle": "What seems necessary to be kept",
+      "left": "convention",
+      "right": "stress",
+      "up": "home",
+      "down": "lovable",
+      "backward": null,
+      "forward": "experience",
+      "edge": [
+        "backward"
+      ],
+      "edgeReasons": {
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 3,
+      "displayY": 0.846,
+      "lon": 275.015528
+    },
+    {
+      "id": "stress",
+      "title": "Persistent stress",
+      "kind": "Context",
+      "group": "stress",
+      "level": 1,
+      "ab": 0,
+      "reading": [
+        "Long periods of strain can narrow what seems possible. These examples concern uncertainty, over-responsibility, repeated evaluation, and limited resources. They describe possible interpretations, not a diagnosis or a single biological mechanism.",
+        "Keep the external conditions in view. Financial insecurity, disability-related barriers, discrimination, and unreasonable workloads may be real. A useful distinction is between a particular constraint and a total judgment about a person’s competence, worth, or future."
+      ],
+      "sources": [
+        "development",
+        "disaster"
+      ],
+      "subtitle": "What seems necessary to get through",
+      "left": "belonging",
+      "right": "trauma",
+      "up": "home",
+      "down": "controlall",
+      "backward": null,
+      "forward": "experience",
+      "edge": [
+        "backward"
+      ],
+      "edgeReasons": {
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 4,
+      "displayY": 0.7989999999999999,
+      "lon": 412.523292
+    },
+    {
+      "id": "trauma",
+      "title": "Traumatic threat",
+      "kind": "Context",
+      "group": "trauma",
+      "level": 1,
+      "ab": 0,
+      "reading": [
+        "Trauma can affect beliefs about safety, trust, responsibility, and personal value. People respond differently, and most people exposed to dangerous events do not develop PTSD. No sentence in this collection establishes a diagnosis.",
+        "This branch separates the reality of what happened from conclusions that extend to every person, every situation, or an entire identity. It never requires deciding that the world is safe. Present danger deserves practical attention, and reflection can wait when someone feels overwhelmed."
+      ],
+      "sources": [
+        "cpt",
+        "ptsd"
+      ],
+      "subtitle": "What danger seems to say about life",
+      "left": "stress",
+      "right": "coercion",
+      "up": "home",
+      "down": "unsafe",
+      "backward": null,
+      "forward": "experience",
+      "edge": [
+        "backward"
+      ],
+      "edgeReasons": {
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 5,
+      "displayY": 0.752,
+      "lon": 550.031056
+    },
+    {
+      "id": "coercion",
+      "title": "Coercive influence",
+      "kind": "Context",
+      "group": "coercion",
+      "level": 1,
+      "ab": 0,
+      "reading": [
+        "Undue influence is used here descriptively for pressure that substantially constrains independent choice. Coercive control can involve repeated isolation, threats, humiliation, or control of resources. The legal definition depends on jurisdiction and relationship; this orb does not decide whether a legal threshold is met.",
+        "For partners, families, workplaces, or groups, examine conduct: access to outside information, freedom to disagree, material dependence, and the cost of leaving. An unfamiliar worldview or a strong commitment alone is not evidence of coercion.",
+        "The short statements in this branch are authored illustrations. Agreement under pressure does not establish free consent. If retaliation is possible, do not use a confrontation or abrupt withdrawal as a belief-testing exercise; confidential specialist support may be more appropriate."
+      ],
+      "sources": [
+        "control"
+      ],
+      "subtitle": "What power makes costly to question",
+      "left": "trauma",
+      "right": null,
+      "up": "home",
+      "down": "judgment",
+      "backward": null,
+      "forward": "experience",
+      "edge": [
+        "right",
+        "backward"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 6,
+      "displayY": 0.705,
+      "lon": 687.53882
+    },
+    {
+      "id": "rest",
+      "title": "My worth is my output.",
+      "kind": "Core belief",
+      "group": "convention",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A setting praises constant activity and treats rest as something to justify."
+      ],
+      "sources": [
+        "perfectionism"
+      ],
+      "rule": "I must earn every pause.",
+      "possibleFunction": "Staying busy may offer recognition or a clear way to count contribution.",
+      "cost": "Human worth becomes difficult to feel during illness, caregiving, unemployment, or an ordinary quiet afternoon.",
+      "flexible": "Contribution matters to me; my worth need not rise and fall with today’s output.",
+      "prompt": "Would I apply the same standard to someone whose work is invisible?",
+      "down": "loop",
+      "illustrative": true,
+      "left": null,
+      "right": "emotion",
+      "up": "convention",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 7,
+      "displayY": 0.6579999999999999,
+      "lon": 825.046584
+    },
+    {
+      "id": "emotion",
+      "title": "My feelings make me weak.",
+      "kind": "Core belief",
+      "group": "convention",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A person repeatedly hears that sadness, fear, or tenderness is embarrassing."
+      ],
+      "sources": [
+        "norms"
+      ],
+      "rule": "I must remain composed to deserve respect.",
+      "possibleFunction": "Concealing emotion may protect against ridicule in that setting.",
+      "cost": "The rule can turn ordinary feeling into an additional reason for shame.",
+      "flexible": "A feeling can be uncomfortable without being a verdict on my strength.",
+      "prompt": "Is the judgment about the feeling itself, its expression, or the audience?",
+      "down": "meaning",
+      "illustrative": true,
+      "left": "rest",
+      "right": "body",
+      "up": "convention",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 8,
+      "displayY": 0.611,
+      "lon": 962.5543480000001
+    },
+    {
+      "id": "body",
+      "title": "My body must earn acceptance.",
+      "kind": "Core belief",
+      "group": "convention",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Appearance is treated as a public measure of discipline, morality, or value."
+      ],
+      "sources": [
+        "development"
+      ],
+      "rule": "I must look acceptable before I can be seen.",
+      "possibleFunction": "Managing appearance may promise social ease or fewer unwanted judgments.",
+      "cost": "Participation becomes conditional on reaching a moving visual standard.",
+      "flexible": "Appearance can affect how people treat me; it does not settle what care I deserve.",
+      "prompt": "Whose standard is operating, and who is excluded by it?",
+      "down": "identity",
+      "illustrative": true,
+      "left": "emotion",
+      "right": "timeline",
+      "up": "convention",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 9,
+      "displayY": 0.564,
+      "lon": 1100.062112
+    },
+    {
+      "id": "timeline",
+      "title": "I am behind in life.",
+      "kind": "Core belief",
+      "group": "convention",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "One timetable for education, work, partnership, or family is presented as adulthood itself."
+      ],
+      "sources": [
+        "rules"
+      ],
+      "rule": "I must reach the usual milestones on schedule.",
+      "possibleFunction": "Following the timetable may provide orientation and social recognition.",
+      "cost": "A different life course becomes evidence of failure instead of information about circumstances or preference.",
+      "flexible": "A shared timetable is one reference point; it is not a complete evaluation of my life.",
+      "prompt": "Does this milestone reflect a chosen value, an available opportunity, or an inherited deadline?",
+      "down": "meaning",
+      "illustrative": true,
+      "left": "body",
+      "right": "independence",
+      "up": "convention",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 10,
+      "displayY": 0.517,
+      "lon": 1237.569876
+    },
+    {
+      "id": "independence",
+      "title": "Needing help makes me lesser.",
+      "kind": "Core belief",
+      "group": "convention",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Self-sufficiency is celebrated while dependence is mocked or made invisible."
+      ],
+      "sources": [
+        "assert"
+      ],
+      "rule": "I should manage everything alone.",
+      "possibleFunction": "Doing things alone may preserve pride and avoid obligations that feel uncertain.",
+      "cost": "Ordinary interdependence starts to feel like a personal defect.",
+      "flexible": "I can value competence and still use support suited to the situation.",
+      "prompt": "Which forms of help are already hidden inside what people call independence?",
+      "down": "rule",
+      "illustrative": true,
+      "left": "timeline",
+      "right": null,
+      "up": "convention",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "right"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 11,
+      "displayY": 0.47000000000000003,
+      "lon": 1375.07764
+    },
+    {
+      "id": "lovable",
+      "title": "I am lovable only when useful.",
+      "kind": "Core belief",
+      "group": "belonging",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Attention seems warmest when a person performs a service or solves someone else’s problem."
+      ],
+      "sources": [
+        "development"
+      ],
+      "rule": "I must keep giving to keep my place.",
+      "possibleFunction": "Usefulness may become a predictable route to connection.",
+      "cost": "Receiving care without immediately repaying it can feel undeserved or precarious.",
+      "flexible": "Usefulness is one thing I offer; a reciprocal relationship can contain more of me.",
+      "prompt": "What distinguishes appreciation for a contribution from affection contingent on it?",
+      "down": "loop",
+      "illustrative": true,
+      "left": null,
+      "right": "needs",
+      "up": "belonging",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 12,
+      "displayY": 0.42299999999999993,
+      "lon": 1512.5854040000002
+    },
+    {
+      "id": "needs",
+      "title": "My needs are too much.",
+      "kind": "Core belief",
+      "group": "belonging",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Requests are repeatedly met with impatience, comparison, or withdrawal."
+      ],
+      "sources": [
+        "assert"
+      ],
+      "rule": "I must ask for as little as possible.",
+      "possibleFunction": "Reducing requests may preserve connection or reduce conflict.",
+      "cost": "Other people cannot respond to needs they never get to hear, and unmet needs can be mistaken for proof of unworthiness.",
+      "flexible": "A need can be real even when a particular person cannot meet it.",
+      "prompt": "Can the legitimacy of a need be separated from the availability of a response?",
+      "down": "loop",
+      "illustrative": true,
+      "left": "lovable",
+      "right": "conflict",
+      "up": "belonging",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 13,
+      "displayY": 0.376,
+      "lon": 1650.093168
+    },
+    {
+      "id": "conflict",
+      "title": "Disagreement costs me love.",
+      "kind": "Conditional assumption",
+      "group": "belonging",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Difference is followed by coldness or threats to the relationship."
+      ],
+      "sources": [
+        "no"
+      ],
+      "rule": "I must agree before I understand what I want.",
+      "possibleFunction": "Agreement may keep the interaction predictable in the moment.",
+      "cost": "Consent becomes hard to distinguish from fear of disconnection.",
+      "flexible": "A disagreement can reveal a difference; what follows tells me about this relationship.",
+      "prompt": "Is there room for both people to remain present while wanting different things?",
+      "down": "rule",
+      "illustrative": true,
+      "left": "needs",
+      "right": "perfect",
+      "up": "belonging",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 14,
+      "displayY": 0.32899999999999996,
+      "lon": 1787.600932
+    },
+    {
+      "id": "perfect",
+      "title": "A flaw makes me unacceptable.",
+      "kind": "Core belief",
+      "group": "belonging",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Approval seems to disappear when performance is merely adequate."
+      ],
+      "sources": [
+        "perfectionism"
+      ],
+      "rule": "I must be beyond criticism.",
+      "possibleFunction": "Extra preparation may reduce exposure to criticism.",
+      "cost": "Success gives temporary relief while the standard for being acceptable keeps moving.",
+      "flexible": "A flaw is information about a part of my performance, not the whole of my person.",
+      "prompt": "What would count as enough if acceptance were not the prize?",
+      "down": "loop",
+      "illustrative": true,
+      "left": "conflict",
+      "right": "caretaker",
+      "up": "belonging",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 15,
+      "displayY": 0.2819999999999999,
+      "lon": 1925.1086960000002
+    },
+    {
+      "id": "caretaker",
+      "title": "Everyone’s feelings are my job.",
+      "kind": "Core belief",
+      "group": "belonging",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Someone becomes accustomed to monitoring the emotional climate around them."
+      ],
+      "sources": [
+        "assert"
+      ],
+      "rule": "I must prevent other people from becoming upset.",
+      "possibleFunction": "Anticipating moods may reduce surprises or preserve a valued role.",
+      "cost": "Care turns into a duty to control outcomes that no person can fully control.",
+      "flexible": "I can care about someone’s feelings without being responsible for every feeling they have.",
+      "prompt": "Where does influence end and another person’s agency begin?",
+      "down": "rule",
+      "illustrative": true,
+      "left": "perfect",
+      "right": null,
+      "up": "belonging",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "right"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 16,
+      "displayY": 0.235,
+      "lon": 2062.61646
+    },
+    {
+      "id": "controlall",
+      "title": "Without control, I cannot cope.",
+      "kind": "Core belief",
+      "group": "stress",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Repeated disruptions make preparation feel like the only dependable resource."
+      ],
+      "sources": [
+        "disaster"
+      ],
+      "rule": "I must anticipate every possible problem.",
+      "possibleFunction": "Planning can reduce real uncertainty and offer direction.",
+      "cost": "The plan expands until uncertainty itself looks like failure.",
+      "flexible": "I can prepare for some things and respond to others with the resources available.",
+      "prompt": "Is this preparation proportionate to a current risk, or an attempt to remove all uncertainty?",
+      "down": "rule",
+      "illustrative": true,
+      "left": null,
+      "right": "mistake",
+      "up": "stress",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 17,
+      "displayY": 0.18799999999999994,
+      "lon": 2200.124224
+    },
+    {
+      "id": "mistake",
+      "title": "One mistake will undo me.",
+      "kind": "Conditional assumption",
+      "group": "stress",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A workplace, school, or household reacts to small errors as if they define the person."
+      ],
+      "sources": [
+        "perfectionism"
+      ],
+      "rule": "I must check until no error is possible.",
+      "possibleFunction": "Checking may genuinely catch errors and reduce immediate criticism.",
+      "cost": "No finite amount of checking can guarantee a flawless future; the person may become unable to finish.",
+      "flexible": "Consequences vary. I can distinguish repairable errors from high-stakes ones.",
+      "prompt": "What is the actual consequence of this particular error, and what repair is available?",
+      "down": "loop",
+      "illustrative": true,
+      "left": "controlall",
+      "right": "burden",
+      "up": "stress",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 18,
+      "displayY": 0.14100000000000001,
+      "lon": 2337.631988
+    },
+    {
+      "id": "burden",
+      "title": "I am a burden.",
+      "kind": "Core belief",
+      "group": "stress",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Resources are stretched and a person notices that their needs require time, money, or attention."
+      ],
+      "sources": [
+        "development"
+      ],
+      "rule": "I must hide the cost of caring for me.",
+      "possibleFunction": "Concealment may seem to spare others strain or prevent rejection.",
+      "cost": "The existence of a cost becomes confused with a judgment that the person should not need care.",
+      "flexible": "Care takes resources. That fact alone does not make my existence a problem.",
+      "prompt": "Would the same resource shortage make another person undeserving?",
+      "down": "meaning",
+      "illustrative": true,
+      "left": "mistake",
+      "right": "scarcity",
+      "up": "stress",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 19,
+      "displayY": 0.09400000000000008,
+      "lon": 2475.139752
+    },
+    {
+      "id": "scarcity",
+      "title": "There will never be enough.",
+      "kind": "World belief",
+      "group": "stress",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Repeated shortages make loss an immediate practical concern."
+      ],
+      "sources": [
+        "disaster"
+      ],
+      "rule": "I must hold on to everything and never relax.",
+      "possibleFunction": "Conserving resources can be sensible and necessary.",
+      "cost": "An unqualified “never” can erase differences between present scarcity, future uncertainty, and areas where some choice remains.",
+      "flexible": "Some resources are limited now; I can name the shortage without predicting every future.",
+      "prompt": "What is known about the present shortage, and what remains uncertain?",
+      "down": "experience",
+      "illustrative": true,
+      "left": "burden",
+      "right": "future",
+      "up": "stress",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 20,
+      "displayY": 0.04699999999999993,
+      "lon": 2612.647516
+    },
+    {
+      "id": "future",
+      "title": "Nothing I do makes a difference.",
+      "kind": "Agency belief",
+      "group": "stress",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Attempts repeatedly meet obstacles, arbitrary decisions, or exhausted resources."
+      ],
+      "sources": [
+        "disaster"
+      ],
+      "rule": "There is no point in trying.",
+      "possibleFunction": "Expecting little may protect against another round of disappointment.",
+      "cost": "A broad conclusion can hide smaller forms of influence while leaving the original barriers unexplained.",
+      "flexible": "Some outcomes are outside my control; other actions may still matter at a smaller scale.",
+      "prompt": "Which obstacle is external, and which small outcome could an action actually affect?",
+      "down": "floor-context",
+      "illustrative": true,
+      "left": "scarcity",
+      "right": null,
+      "up": "stress",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "right"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 21,
+      "displayY": 1.1102230246251565e-16,
+      "lon": 2750.15528
+    },
+    {
+      "id": "unsafe",
+      "title": "Nowhere is safe.",
+      "kind": "World belief",
+      "group": "trauma",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A dangerous event makes threat difficult to put into a bounded place and time."
+      ],
+      "sources": [
+        "triggers"
+      ],
+      "rule": "I must stay alert everywhere.",
+      "possibleFunction": "Alertness may help detect danger and avoid being surprised.",
+      "cost": "If every setting is treated as the same setting, restorative moments may become difficult to recognize.",
+      "flexible": "Safety is specific and imperfect; I can assess this place, these people, and this moment.",
+      "prompt": "What is a current sign of danger, and what is a reminder of a different event?",
+      "down": "floor-context",
+      "illustrative": true,
+      "left": null,
+      "right": "powerless",
+      "up": "trauma",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 22,
+      "displayY": -0.04699999999999993,
+      "lon": 2887.6630440000004
+    },
+    {
+      "id": "powerless",
+      "title": "I have no say.",
+      "kind": "Agency belief",
+      "group": "trauma",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Someone has been unable to stop an event or protect a boundary."
+      ],
+      "sources": [
+        "cpt"
+      ],
+      "rule": "My preferences do not change anything.",
+      "possibleFunction": "Expecting little agency may make an uncontrollable situation easier to predict.",
+      "cost": "A past absence of choice can become an assumption about choices that exist now.",
+      "flexible": "My options may be limited; I can distinguish a past lack of control from a present choice.",
+      "prompt": "Where is choice actually available today, however small?",
+      "down": "identity",
+      "illustrative": true,
+      "left": "unsafe",
+      "right": "blame",
+      "up": "trauma",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 23,
+      "displayY": -0.09400000000000008,
+      "lon": 3025.1708080000003
+    },
+    {
+      "id": "blame",
+      "title": "It happened because I am bad.",
+      "kind": "Core belief",
+      "group": "trauma",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A person searches for an explanation of harm and locates the cause in their identity."
+      ],
+      "sources": [
+        "cpt"
+      ],
+      "rule": "I must become good enough to prevent it happening again.",
+      "possibleFunction": "Self-blame may seem to offer a rule for preventing another event; that is a possible meaning, not a universal reason.",
+      "cost": "Responsibility for an event is replaced by a global moral verdict.",
+      "flexible": "What I knew, could choose, and could control then matters; harm does not prove badness.",
+      "prompt": "What facts concern responsibility, and what words turn those facts into a judgment of identity?",
+      "down": "meaning",
+      "illustrative": true,
+      "left": "powerless",
+      "right": "damaged",
+      "up": "trauma",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 24,
+      "displayY": -0.14100000000000001,
+      "lon": 3162.6785720000003
+    },
+    {
+      "id": "damaged",
+      "title": "I am permanently damaged.",
+      "kind": "Core belief",
+      "group": "trauma",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Distress or changes after an event are interpreted as evidence of an irreversibly altered self."
+      ],
+      "sources": [
+        "ptsd"
+      ],
+      "rule": "I must not expect a different life.",
+      "possibleFunction": "Lowering expectations may seem to protect against hope followed by disappointment.",
+      "cost": "The word “permanently” makes a prediction that today’s experience cannot establish.",
+      "flexible": "What happened may have lasting effects; today does not tell me every possibility ahead.",
+      "prompt": "Which effects are present now, and which conclusions predict the rest of a life?",
+      "down": "floor-change",
+      "illustrative": true,
+      "left": "blame",
+      "right": "trust",
+      "up": "trauma",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 25,
+      "displayY": -0.18799999999999994,
+      "lon": 3300.186336
+    },
+    {
+      "id": "trust",
+      "title": "Closeness leads to harm.",
+      "kind": "Conditional assumption",
+      "group": "trauma",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Someone who mattered also caused harm, failed to protect, or broke trust."
+      ],
+      "sources": [
+        "coping"
+      ],
+      "rule": "I must keep everyone at a distance.",
+      "possibleFunction": "Distance may reduce exposure to a known kind of hurt.",
+      "cost": "A boundary that protects from one person may become a rule excluding all possible connection.",
+      "flexible": "Trust can be specific, gradual, and revisable; closeness does not have to be all or nothing.",
+      "prompt": "What conduct would justify a small amount of trust, and what would justify withdrawing it?",
+      "down": "rule",
+      "illustrative": true,
+      "left": "damaged",
+      "right": null,
+      "up": "trauma",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "right"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 26,
+      "displayY": -0.2350000000000001,
+      "lon": 3437.6941
+    },
+    {
+      "id": "judgment",
+      "title": "My judgment cannot be trusted.",
+      "kind": "Core belief",
+      "group": "coercion",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "A person’s observations are repeatedly dismissed while one authority claims exclusive interpretive power."
+      ],
+      "sources": [
+        "control"
+      ],
+      "rule": "I must let them decide what is real.",
+      "possibleFunction": "Deferring may reduce dispute and keep access to a relationship or group.",
+      "cost": "Checking one’s view against independent evidence becomes confused with disloyalty.",
+      "flexible": "My judgments can be mistaken and still deserve consideration alongside independent evidence.",
+      "prompt": "Who is allowed to question an interpretation, and what happens when they do?",
+      "down": "floor-origin",
+      "illustrative": true,
+      "left": null,
+      "right": "obedience",
+      "up": "coercion",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 27,
+      "displayY": -0.28200000000000003,
+      "lon": 3575.201864
+    },
+    {
+      "id": "obedience",
+      "title": "A good person obeys.",
+      "kind": "Rule treated as identity",
+      "group": "coercion",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Moral status is made conditional on following an authority’s direction."
+      ],
+      "sources": [
+        "control"
+      ],
+      "rule": "I must comply even when I have serious doubts.",
+      "possibleFunction": "Compliance may preserve approval or avoid a penalty.",
+      "cost": "A legitimate disagreement becomes a supposed defect of character.",
+      "flexible": "Commitment can include questions; obedience alone does not establish goodness.",
+      "prompt": "Can the instruction be examined without attacking the person who questions it?",
+      "down": "identity",
+      "illustrative": true,
+      "left": "judgment",
+      "right": "outsiders",
+      "up": "coercion",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 28,
+      "displayY": -0.32899999999999996,
+      "lon": 3712.709628
+    },
+    {
+      "id": "outsiders",
+      "title": "Only this group can keep me safe.",
+      "kind": "World belief",
+      "group": "coercion",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Outside relationships or sources are presented as uniformly corrupt or threatening."
+      ],
+      "sources": [
+        "control"
+      ],
+      "rule": "I must avoid people and information outside it.",
+      "possibleFunction": "Staying inside may offer belonging and a ready-made explanation of uncertainty.",
+      "cost": "The claim becomes harder to evaluate when it forbids access to anything that could challenge it.",
+      "flexible": "Safety claims need evidence that can be checked beyond the authority making them.",
+      "prompt": "What independent information would be allowed to count against this claim?",
+      "down": "floor-origin",
+      "illustrative": true,
+      "left": "obedience",
+      "right": "debt",
+      "up": "coercion",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 29,
+      "displayY": -0.3760000000000001,
+      "lon": 3850.2173920000005
+    },
+    {
+      "id": "debt",
+      "title": "I owe them my freedom.",
+      "kind": "Core belief",
+      "group": "coercion",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Past help, sacrifice, or rescue is invoked as an unlimited claim on present choices."
+      ],
+      "sources": [
+        "no"
+      ],
+      "rule": "Because they helped me, I cannot refuse.",
+      "possibleFunction": "Repayment may preserve gratitude and avoid conflict over an obligation.",
+      "cost": "A specific debt becomes an open-ended surrender of consent.",
+      "flexible": "Gratitude and finite obligations can be real without granting ownership of my choices.",
+      "prompt": "What was actually agreed, and does the claimed obligation have any limit?",
+      "down": "rule",
+      "illustrative": true,
+      "left": "outsiders",
+      "right": "owned",
+      "up": "coercion",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 30,
+      "displayY": -0.42300000000000004,
+      "lon": 3987.7251560000004
+    },
+    {
+      "id": "owned",
+      "title": "My boundaries are not mine.",
+      "kind": "Core belief",
+      "group": "coercion",
+      "level": 2,
+      "ab": 0,
+      "reading": [
+        "Access is demanded as proof of loyalty, love, or membership."
+      ],
+      "sources": [
+        "control"
+      ],
+      "rule": "They are entitled to my time, body, money, or privacy.",
+      "possibleFunction": "Compliance may reduce immediate conflict or retaliation in a constrained situation.",
+      "cost": "Permission is treated as permanently given, leaving little room to withdraw or renegotiate it.",
+      "flexible": "A relationship does not make consent permanent or erase the importance of boundaries.",
+      "prompt": "Is refusal meaningfully possible, or is permission being presumed under pressure?",
+      "down": "floor-context",
+      "illustrative": true,
+      "left": "debt",
+      "right": null,
+      "up": "coercion",
+      "backward": "meaning",
+      "forward": "rule",
+      "edge": [
+        "right"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 31,
+      "displayY": -0.47,
+      "lon": 4125.23292
+    },
+    {
+      "id": "experience",
+      "title": "Experience & conditions",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "Start with a bounded description: who did what, under what conditions, and what choices existed? A fact about treatment by others is different from a conclusion about the worth of the person treated.",
+        "Illustrative contrast: “My request was refused today” describes an event. “My needs never count” extends it across situations. Repetition may give that extension more weight, but the two statements still answer different questions. Conditions can need changing even when the broader conclusion is questioned."
+      ],
+      "sources": [
+        "development"
+      ],
+      "down": "floor-origin",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": null,
+      "right": "meaning",
+      "up": "home",
+      "backward": "home",
+      "forward": "meaning",
+      "edge": [
+        "left"
+      ],
+      "edgeReasons": {
+        "left": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 32,
+      "displayY": -0.5169999999999999,
+      "lon": 4262.740684
+    },
+    {
+      "id": "meaning",
+      "title": "The meaning assigned",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "An interpretation answers “What does this say about me, people, or the world?” The same event can support competing interpretations. Their plausibility depends on evidence and context, not simply on which one sounds kinder.",
+        "For example, a delayed reply might mean someone is busy, uncertain, avoiding contact, or something else. “I do not matter” adds a global self-evaluation. The point is to notice that added claim before treating it as the only possible reading."
+      ],
+      "sources": [
+        "maintenance"
+      ],
+      "down": "floor-origin",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": "experience",
+      "right": "rule",
+      "up": "home",
+      "backward": "experience",
+      "forward": "rule",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 33,
+      "displayY": -0.5640000000000001,
+      "lon": 4400.248448
+    },
+    {
+      "id": "rule",
+      "title": "The protective rule",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "Rules often take the form “I must…” or “If I…, then…”. They translate a broad belief into instructions: if worth depends on achievement, keep achieving; if disagreement predicts rejection, stay agreeable.",
+        "A rule can be locally useful yet too rigid for every setting. Examine what it asks, what it promises, and when it can be revised. Calling it protective describes a possible function; it neither proves how it originated nor requires keeping it forever."
+      ],
+      "sources": [
+        "rules"
+      ],
+      "down": "floor-context",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": "meaning",
+      "right": "loop",
+      "up": "home",
+      "backward": "meaning",
+      "forward": "loop",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 34,
+      "displayY": -0.611,
+      "lon": 4537.756212
+    },
+    {
+      "id": "loop",
+      "title": "The loop that keeps it plausible",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "A belief can influence what gets noticed and how an ambiguous event is interpreted. A protective response may then reduce opportunities to encounter an exception. This is one maintenance model, not an explanation for every enduring belief.",
+        "Illustrative loop: expect disapproval → conceal a preference → avoid an immediate disagreement → never learn whether this person could accept a difference. But a hostile response can also be real evidence about that relationship. Inspect the setting before assuming the only problem is interpretation."
+      ],
+      "sources": [
+        "maintenance",
+        "coping"
+      ],
+      "down": "floor-change",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": "rule",
+      "right": "identity",
+      "up": "home",
+      "backward": "rule",
+      "forward": "identity",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 35,
+      "displayY": -0.6579999999999999,
+      "lon": 4675.263976
+    },
+    {
+      "id": "identity",
+      "title": "From a sentence to “who I am”",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "Here, “identifying with a belief” means that a conclusion has become a default self-description. Compare “I made an error in this task” with “I am incompetent.” The second statement reaches much further.",
+        "In this orb, rigidity means a belief resists relevant exceptions, crosses contexts without checking, or punishes questioning. This is an explanatory definition, not a scored psychological measure. Frequency, conviction, emotional intensity, and practical consequences are different dimensions."
+      ],
+      "sources": [
+        "balance"
+      ],
+      "down": "floor-measure",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": "loop",
+      "right": "flexibility",
+      "up": "home",
+      "backward": "loop",
+      "forward": "flexibility",
+      "edge": [],
+      "edgeReasons": {},
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 36,
+      "displayY": -0.7050000000000001,
+      "lon": 4812.77174
+    },
+    {
+      "id": "flexibility",
+      "title": "A belief with room to revise",
+      "kind": "Mechanism",
+      "group": "mechanism",
+      "level": 3,
+      "ab": 0,
+      "reading": [
+        "A useful alternative is specific enough to be credible and open enough to update. “Everyone is safe” is another absolute. “I can assess trust person by person” leaves room for both caution and connection.",
+        "Begin with one statement, distinguish current conditions from broad predictions, and consider a relevant exception. Reflection is optional; remembering or reliving a traumatic event is not required. Where serious distress persists, a qualified clinician can help with an approach matched to the person.",
+        "Changing a belief need not mean tolerating a harmful situation. Safer conditions, practical support, and changes in relationships or institutions may matter alongside a change in interpretation. A visitor can read this collection purely as an observer."
+      ],
+      "sources": [
+        "balance",
+        "cpt"
+      ],
+      "down": "floor-change",
+      "prompt": "What would this explanation clarify—and what would it leave out—in one of the illustrative beliefs?",
+      "left": "identity",
+      "right": null,
+      "up": "home",
+      "backward": "identity",
+      "forward": null,
+      "edge": [
+        "right",
+        "forward"
+      ],
+      "edgeReasons": {
+        "right": "No further step authored in this direction.",
+        "forward": "End of the authored explanatory thread."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 37,
+      "displayY": -0.7519999999999998,
+      "lon": 4950.279504
+    },
+    {
+      "id": "floor-origin",
+      "title": "Can a sentence tell us its origin?",
+      "kind": "Knowledge floor",
+      "group": "floor",
+      "level": 4,
+      "ab": 0,
+      "reading": [
+        "Life experiences can influence self-evaluation, but a present belief does not identify a unique past event or cause.",
+        "A present-day statement is insufficient. This is a limit of inference from this orb, not a declaration that all individual histories are unknowable. Voluntarily supplied context and longitudinal observations could add information; a suggested story or prompted memory is not proof."
+      ],
+      "sources": [
+        "development"
+      ],
+      "up": "meaning",
+      "boundary": "Inference limit",
+      "prompt": "What evidence would distinguish social learning, repeated relational pressure, and interpretation after a discrete event for a particular person?",
+      "left": null,
+      "right": "floor-context",
+      "backward": null,
+      "forward": null,
+      "down": null,
+      "edge": [
+        "down",
+        "left",
+        "forward",
+        "backward"
+      ],
+      "edgeReasons": {
+        "down": "Knowledge floor: further investigation requires evidence beyond this reading.",
+        "left": "No further step authored in this direction.",
+        "forward": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 38,
+      "displayY": -0.7990000000000002,
+      "lon": 5087.787268
+    },
+    {
+      "id": "floor-context",
+      "title": "Old alarm, present danger, or both?",
+      "kind": "Knowledge floor",
+      "group": "floor",
+      "level": 4,
+      "ab": 0,
+      "reading": [
+        "Trauma reminders can produce distress; coercive or materially unsafe conditions can also be ongoing.",
+        "The orb cannot observe the setting or assess safety. Independent information and appropriate professional or specialist support may help. Do not “test” a belief by exposing someone to retaliation. This is a practical assessment gap, not an unsolved universal research question."
+      ],
+      "sources": [
+        "triggers",
+        "control"
+      ],
+      "up": "rule",
+      "boundary": "Context not assessed",
+      "prompt": "What current evidence separates a generalized prediction from a realistic appraisal of this setting?",
+      "left": "floor-origin",
+      "right": "floor-change",
+      "backward": null,
+      "forward": null,
+      "down": null,
+      "edge": [
+        "down",
+        "forward",
+        "backward"
+      ],
+      "edgeReasons": {
+        "down": "Knowledge floor: further investigation requires evidence beyond this reading.",
+        "forward": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 39,
+      "displayY": -0.8460000000000001,
+      "lon": 5225.295032
+    },
+    {
+      "id": "floor-change",
+      "title": "Why does change differ between people?",
+      "kind": "Knowledge floor",
+      "group": "floor",
+      "level": 4,
+      "ab": 0,
+      "reading": [
+        "Effective PTSD treatments exist, and research continues on differences in symptoms, recovery, and treatment components.",
+        "The sources support this broader research area, not an exact prediction for an individual or for every belief in this collection. Prospective studies and treatment studies that measure belief change alongside context could sharpen the question. No particular method is claimed here to resolve it completely."
+      ],
+      "sources": [
+        "ptsd",
+        "cpt"
+      ],
+      "up": "loop",
+      "boundary": "Active research; limited prediction",
+      "prompt": "Which combinations of personal history, present conditions, and intervention explain why a belief shifts readily for one person and persists for another?",
+      "left": "floor-context",
+      "right": "floor-measure",
+      "backward": null,
+      "forward": null,
+      "down": null,
+      "edge": [
+        "down",
+        "forward",
+        "backward"
+      ],
+      "edgeReasons": {
+        "down": "Knowledge floor: further investigation requires evidence beyond this reading.",
+        "forward": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 40,
+      "displayY": -0.8929999999999998,
+      "lon": 5362.802796
+    },
+    {
+      "id": "floor-measure",
+      "title": "What would “rigid” mean in a study?",
+      "kind": "Knowledge floor",
+      "group": "floor",
+      "level": 4,
+      "ab": 0,
+      "reading": [
+        "This orb distinguishes conviction, generalization, willingness to update, and costs. It has not validated an instrument that combines them.",
+        "Before making comparisons, define the dimensions and examine reliability, cultural meaning, and validity. A useful study might compare responses across contexts and over time. This is a design question for this framework, not a claim that existing psychological measures do not exist."
+      ],
+      "sources": [
+        "norms",
+        "balance"
+      ],
+      "up": "identity",
+      "boundary": "Unvalidated authoring framework",
+      "prompt": "Could two people endorse the same statement yet differ sharply in flexibility, distress, and freedom of choice?",
+      "left": "floor-change",
+      "right": null,
+      "backward": null,
+      "forward": null,
+      "down": null,
+      "edge": [
+        "down",
+        "right",
+        "forward",
+        "backward"
+      ],
+      "edgeReasons": {
+        "down": "Knowledge floor: further investigation requires evidence beyond this reading.",
+        "right": "No further step authored in this direction.",
+        "forward": "No further step authored in this direction.",
+        "backward": "No further step authored in this direction."
+      },
+      "thread": "Explanatory: experience → meaning → rule → maintenance → identity → flexibility. Not an inevitable causal sequence.",
+      "number": 41,
+      "displayY": -0.9399999999999997,
+      "lon": 5500.31056
+    }
+  ],
+  "sources": {
+    "development": {
+      "title": "CCI · How low self-esteem develops",
+      "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Consumer%20Modules/Improving%20Self-Esteem/Improving%20Self-Esteem%20-%2002%20-%20How%20Low%20Self-Esteem%20Develops.pdf",
+      "note": "CBT educational model: experiences, self-evaluations, and protective rules. It does not establish any individual’s history.",
+      "checked": "2026-09-09"
+    },
+    "maintenance": {
+      "title": "CCI · How low self-esteem is maintained",
+      "url": "https://www.cci.health.wa.gov.au/-/media/CCI/Consumer-Modules/Improving-Self-Esteem/Improving-Self-Esteem---03---How-Low-Self-Esteem-is-Maintained.pdf",
+      "note": "Background on expectations, selective interpretation, and maintaining cycles.",
+      "checked": "2026-09-09"
+    },
+    "balance": {
+      "title": "CCI · Developing balanced core beliefs",
+      "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Consumer-Modules/Improving-Self-Esteem/Improving-Self-Esteem---08---Developing-Balanced-Core-Beliefs.pdf",
+      "note": "Balanced alternatives and evidence gathering; this orb is not the CCI treatment program.",
+      "checked": "2026-09-09"
+    },
+    "rules": {
+      "title": "CCI · Adjusting rules and assumptions",
+      "url": "https://cci.health.wa.gov.au/~/media/CCI/Consumer-Modules/Improving-Self-Esteem/Improving-Self-Esteem---07---Adjusting-Rules-and-Assumptions.pdf",
+      "note": "Distinguishes flexible rules from rigid standards and assumptions.",
+      "checked": "2026-09-09"
+    },
+    "perfectionism": {
+      "title": "CCI · Perfectionism resources",
+      "url": "https://cci.health.wa.gov.au/Resources/Looking-After-Yourself/Perfectionism",
+      "note": "Clinical educational resources on standards, achievement, and self-worth.",
+      "checked": "2026-09-09"
+    },
+    "assert": {
+      "title": "HealthyWA · Assertive communication",
+      "url": "https://www.healthywa.health.wa.gov.au/Articles/A_E/Assertive-communication",
+      "note": "Clear expression of a view while respecting other people; ordinary communication guidance is not a safety plan for abuse.",
+      "checked": "2026-09-09"
+    },
+    "no": {
+      "title": "CCI · How to say no assertively",
+      "url": "https://cci.health.wa.gov.au/~/media/CCI/Consumer%20Modules/Assert%20Yourself/Assert%20Yourself%20-%2006%20-%20How%20to%20Say%20No%20Assertively.pdf",
+      "note": "Background on beliefs associated with refusal and assertiveness.",
+      "checked": "2026-09-09"
+    },
+    "cpt": {
+      "title": "VA · Cognitive Processing Therapy",
+      "url": "https://www.ptsd.va.gov/understand_tx/cognitive_processing.asp",
+      "note": "An evidence-based PTSD treatment that examines trauma-related thinking. Browsing this orb is not CPT.",
+      "checked": "2026-09-09"
+    },
+    "ptsd": {
+      "title": "NIMH · Traumatic events and PTSD",
+      "url": "https://www.nimh.nih.gov/health/topics/post-traumatic-stress-disorder-ptsd",
+      "note": "Responses vary; most exposed people do not develop PTSD. Also describes research on differences in symptoms and recovery.",
+      "checked": "2026-09-09"
+    },
+    "disaster": {
+      "title": "VA · Helpful thinking after disasters",
+      "url": "https://www.ptsd.va.gov/disaster_events/for_everyone/helpful_thinking.asp",
+      "note": "Separates realistic concerns from overly broad conclusions after disaster.",
+      "checked": "2026-09-09"
+    },
+    "triggers": {
+      "title": "VA · Trauma reminders",
+      "url": "https://www.ptsd.va.gov/understand/what/trauma_triggers.asp",
+      "note": "Explains how reminders may bring back distress and reactions.",
+      "checked": "2026-09-09"
+    },
+    "coping": {
+      "title": "VA · Negative coping and PTSD",
+      "url": "https://www.ptsd.va.gov/gethelp/negative_coping.asp",
+      "note": "Some ways of coping bring longer-term costs; applies to PTSD, not every instance of avoidance.",
+      "checked": "2026-09-09"
+    },
+    "control": {
+      "title": "UK Home Office · Controlling or coercive behaviour",
+      "url": "https://www.gov.uk/government/publications/controlling-or-coercive-behaviour-statutory-guidance-framework/controlling-or-coercive-behaviour-statutory-guidance-framework-accessible",
+      "note": "Describes patterns including isolation, threats, and economic abuse in intimate/family relationships. Legal scope: England and Wales. This orb makes no legal determinations.",
+      "checked": "2026-09-09"
+    },
+    "norms": {
+      "title": "Van Grootel et al. (2018) · Pluralistic ignorance",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01344/full",
+      "note": "Experiments on men’s perceptions of communal norms and self-descriptions. Narrow study context; not proof about all cultures or trauma.",
+      "checked": "2026-09-09"
+    }
+  },
+  "methodology": "An original educational synthesis. Five overlapping contexts are a navigation device, not a validated continuum of harm. All 25 examples, their possible functions, and alternative phrasings are hypothetical author interpretations, not quotations, diagnosis, prevalence estimates, or demonstrated causal histories. Source notes distinguish conceptual background from supporting evidence. No personal assessment or tracking data is collected.",
+  "audio": {
+    "available": false
+  },
+  "courses": []
+}
